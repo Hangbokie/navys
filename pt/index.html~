@@ -6,11 +6,13 @@
 	<title>HyungJu PT</title>
 	<meta name="Resource-type" content="Document" />
 
-
+<link href='https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="examples.css" />
 	<style>
-
+.noto {
+    font-family: 'Noto Sans Korean', sans-serif;
+}
 	/* Style for our header texts
 	* --------------------------------------- */
 	h1{
@@ -69,6 +71,8 @@
 	#infoMenu li a {
 		color: #fff;
 	}
+
+
 	</style>
 
 	<!--[if IE]>
@@ -95,7 +99,7 @@
 
 
 
-<div id="fullpage">
+<div id="fullpage"  >
 	<div class="section " id="section0"><h1 id=longs> 김학성을 소개합니다</h1></div>
 	<div class="section" id="section1">
 	    <div class="slide" id="slide1"><h1>학성이가 좋아하는것은?</h1></div>
