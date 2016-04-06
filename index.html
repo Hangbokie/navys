@@ -39,7 +39,15 @@ function url_make(){
 	$("#navy_progress").attr("style","width:100%");
 	$("h3").text(val+" 검색중...");
 
-	
+	if (val == "PT" || val == "pt" || val == "국어")
+	{
+		$("h3").text(val+" recongnized. Redirecting to '"+ val+ "' page.")
+		 setTimeout(function(){ 
+		leedongkook();
+	}, 1500);  
+
+}
+	else {
  setTimeout(function(){ 
 
 		$("h3").text(val+"을 어디에서 검색하시겠습니까?")
@@ -47,7 +55,7 @@ function url_make(){
 		$("#sgnbutton").attr("style","visibility:visible");
 	}, 1500);  
 
-
+}
 	
 }
 <!--사이트 이동-->
@@ -65,6 +73,24 @@ function leedong(portal){
 		var leedonggo=url+val;
 		window.location.href = leedonggo ;
 	}
+
+if (portal == "kook"){
+		var url = "http://navys.me/pt";
+		var leedonggo=url+val;
+		window.location.href = leedonggo ;
+	}
+	
+}
+
+function leedongkook(){
+ var val = document.getElementById('input_value').value;
+  
+ 
+
+		var url = "http://navys.me/pt";
+
+		window.location.href = url;
+
 	
 }
 <!-- 세팅 -->
