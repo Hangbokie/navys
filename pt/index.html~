@@ -125,7 +125,9 @@
 
 
 	</div>
-
+<div class="section" id="section1">
+	 <div class="slide" id="slide2"><h1>끝</h1></div>
+	    <div class="slide" id="slide2"><h1 style=" text-shadow: 2px 2px 4px #000000;" >매우  매우</h1><h1> 착하다고함.</h1><h1  style="font-size: 30px" >(딱히 그런것 같지는 않음..)</h1></div>
 
 </body>
 </html>
