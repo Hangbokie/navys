@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
 
 
@@ -39,16 +39,20 @@ function url_make(){
 	$("#navy_progress").attr("style","width:100%");
 	$("h3").text(val+" 검색중...");
 
-
-
 	if (val == "PT" || val == "pt" || val == "국어")
 	{
-		$("h3").text(val+" recongnized. Redirecting to '"+ val+ "' page.")
+		$("h3").text(val+" recongnized. Redirecting to '"+ val+ "' page.");
 		 setTimeout(function(){ 
 		leedongkook();
 	}, 1500);  
-	
 
+}
+
+if (val == "성형주")
+{
+		$("h3").text("내가 만들었다");
+	
+}
 	else {
  setTimeout(function(){ 
 
@@ -57,7 +61,7 @@ function url_make(){
 		$("#sgnbutton").attr("style","visibility:visible");
 	}, 1500);  
 
-
+}
 	
 }
 <!--사이트 이동-->
@@ -121,10 +125,6 @@ $("#navy_progress").attr("style","visibility:hidden")
 
   <div class="alert alert-info">
   <strong>네이비스 도우미</strong> 아래의 입력창에 검색어를 입력하시고 하단의  <button id="button" class="btn  alert-navy btn-navy "  >검색</button> 을 눌러주세요.
-</div>
-
-  <div class="alert alert-info">
-  <strong>안내</strong> 이 사이트는 용마중학교 학생이 만들었습니다
 </div>
 
 <!-- 도우미 -->
@@ -194,3 +194,4 @@ $("#navy_progress").attr("style","visibility:hidden")
 </html>
 </body>
 </html>
+
