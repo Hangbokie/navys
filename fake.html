@@ -1,0 +1,292 @@
+<HEAD><TITLE>월별VOCA챔피언</TITLE>
+<META name=viewport content=width=device-width><LINK rel=stylesheet type=text/css href="/Content/Glecvoca.css">
+<SCRIPT src="/Scripts/jquery-1.10.2.js"></SCRIPT>
+
+<STYLE type=text/css>TABLE {
+	BORDER-SPACING: 0; BORDER-COLLAPSE: collapse
+}
+BODY {
+	MARGIN: 0px
+}
+</STYLE>
+</HEAD>
+<BODY>
+<FORM id=Form1 method=post>
+<DIV style="BACKGROUND-COLOR: white; WIDTH: 600px; FONT-FAMILY: Dotum; HEIGHT: 600px"><A onclick="parent.$('#layer_pop_ifame').hide();">
+<DIV id=layer_pop_rank_close class=popup_close></DIV></A>
+<DIV id=layer_pop_rank_top_div>
+<DIV id=layer_pop_rank_myrank>
+<DIV id=layer_pop_rank_myrank_icon></DIV>
+<DIV id=layer_pop_rank_myrank_text><SPAN style="FLOAT: left; COLOR: white">&nbsp;나의 랭킹 : </SPAN><SPAN style="WIDTH: 130px; COLOR: #e9dc5c">&nbsp;0 점</SPAN> </DIV></DIV></DIV>
+<DIV id=layer_pop_rank_date>
+<DIV id=layer_pop_rank_date_bar>
+<DIV id=layer_pop_rank_date_bar_value><SELECT id=rank_date_yy name=rank_date_yy><OPTION selected value=2016>2016년</OPTION> <OPTION value=2015>2015년</OPTION></SELECT> <SELECT id=rank_date_mm name=rank_date_mm><OPTION value=01>01월</OPTION> <OPTION value=02>02월</OPTION> <OPTION value=03>03월</OPTION> <OPTION value=04>04월</OPTION> <OPTION value=05>05월</OPTION> <OPTION selected value=06>06월</OPTION> <OPTION value=07>07월</OPTION> <OPTION value=08>08월</OPTION> <OPTION value=09>09월</OPTION> <OPTION value=10>10월</OPTION> <OPTION value=11>11월</OPTION> <OPTION value=12>12월</OPTION></SELECT> 
+<DIV id=layer_pop_rank_seach onclick="$('#Form1').submit();"></DIV></DIV></DIV></DIV>
+<DIV id=layer_pop_rank_table_title>
+<TABLE>
+<COLGROUP>
+<COL width=70>
+<COL width=115>
+<COL width=110>
+<COL width=70>
+<COL width=110>
+<COL width=98></COLGROUP>
+<TBODY>
+<TR>
+<TH>등수</TH>
+<TH>캠퍼스</TH>
+<TH>반명</TH>
+<TH>이름</TH>
+<TH>현재 학습레벨</TH>
+<TH style="PADDING-RIGHT: 12px">랭킹점수</TH></TR></TBODY></TABLE></DIV>
+<DIV id=layer_pop_rank_table_content>
+<TABLE>
+<COLGROUP>
+<COL width=70>
+<COL width=110>
+<COL width=110>
+<COL width=70>
+<COL width=100>
+<COL width=85></COLGROUP>
+<TBODY>
+<TR class=layer_pop_rank_table_top1>
+<TD>
+<DIV class=layer_pop_rank_table_top1_icon></DIV></TD>
+<TD>동대문캠퍼스</TD>
+<TD>중1NI1</TD>
+<TD>성형주A</TD>
+<TD>M3-A</TD>
+<TD>1090</TD></TR>
+<TR class=layer_pop_rank_table_top2>
+<TD>
+<DIV class=layer_pop_rank_table_top2_icon></DIV></TD>
+<TD>중랑캠퍼스</TD>
+<TD>중2NA1</TD>
+<TD>윤서희C</TD>
+<TD>M3-C</TD>
+<TD>869</TD></TR>
+<TR class=layer_pop_rank_table_top3>
+<TD>
+<DIV class=layer_pop_rank_table_top3_icon></DIV></TD>
+<TD>본사</TD>
+<TD>중2GT</TD>
+<TD>이문이A</TD>
+<TD>M2-C</TD>
+<TD>797</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>4 </DIV></TD>
+<TD>성동캠퍼스</TD>
+<TD>중3CQB1</TD>
+<TD>정다빈F</TD>
+<TD>H1-D</TD>
+<TD>437</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>5 </DIV></TD>
+<TD>성동캠퍼스</TD>
+<TD>중2SI2</TD>
+<TD>최윤하A</TD>
+<TD>M3-A</TD>
+<TD>394</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>6 </DIV></TD>
+<TD>성동캠퍼스</TD>
+<TD>중2SA1</TD>
+<TD>김나영AI</TD>
+<TD>M3-A</TD>
+<TD>384</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>7 </DIV></TD>
+<TD>중랑캠퍼스</TD>
+<TD>중2SA2</TD>
+<TD>황덕수A</TD>
+<TD>M3-C</TD>
+<TD>339</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>8 </DIV></TD>
+<TD>성동캠퍼스</TD>
+<TD>중3WA1</TD>
+<TD>공대영A</TD>
+<TD>M2-B</TD>
+<TD>312</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>9 </DIV></TD>
+<TD>중랑캠퍼스</TD>
+<TD>중2SA2</TD>
+<TD>윤준영F</TD>
+<TD>M2-B</TD>
+<TD>285</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>10 </DIV></TD>
+<TD>성동캠퍼스</TD>
+<TD>중1SA1</TD>
+<TD>강세인B</TD>
+<TD>M3-A</TD>
+<TD>284</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>11 </DIV></TD>
+<TD>서초캠퍼스</TD>
+<TD>중NI2</TD>
+<TD>권소현D</TD>
+<TD>M2-C</TD>
+<TD>260</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>12 </DIV></TD>
+<TD>동대문캠퍼스</TD>
+<TD>중2CPI1</TD>
+<TD>최원준U</TD>
+<TD>H1-B</TD>
+<TD>250</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>13 </DIV></TD>
+<TD>동대문캠퍼스</TD>
+<TD>중1SI2</TD>
+<TD>신상우H</TD>
+<TD>M1-A</TD>
+<TD>246</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>14 </DIV></TD>
+<TD>성동캠퍼스</TD>
+<TD>중1SB2</TD>
+<TD>임채련A</TD>
+<TD>M1-C</TD>
+<TD>235</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>14 </DIV></TD>
+<TD>동대문캠퍼스</TD>
+<TD>중2CPI1</TD>
+<TD>문수영C</TD>
+<TD>H2-B</TD>
+<TD>235</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>15 </DIV></TD>
+<TD>서초캠퍼스</TD>
+<TD>중NI2</TD>
+<TD>고지민B</TD>
+<TD>M2-C</TD>
+<TD>233</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>16 </DIV></TD>
+<TD>동대문캠퍼스</TD>
+<TD>중1SI1</TD>
+<TD>사승훈A</TD>
+<TD>M1-B</TD>
+<TD>222</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>17 </DIV></TD>
+<TD>성동캠퍼스</TD>
+<TD>중2SA1</TD>
+<TD>우지윤B</TD>
+<TD>M2-C</TD>
+<TD>205</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>18 </DIV></TD>
+<TD>동대문캠퍼스</TD>
+<TD>중2CPI1</TD>
+<TD>양성욱A</TD>
+<TD>H2-B</TD>
+<TD>197</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>19 </DIV></TD>
+<TD>동대문캠퍼스</TD>
+<TD>중3CQB2</TD>
+<TD>남예현A</TD>
+<TD>M3-A</TD>
+<TD>187</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>20 </DIV></TD>
+<TD>동대문캠퍼스</TD>
+<TD>중1SI2</TD>
+<TD>최익호A</TD>
+<TD>M2-B</TD>
+<TD>168</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>21 </DIV></TD>
+<TD>동대문캠퍼스</TD>
+<TD>중2NI2</TD>
+<TD>서채우A</TD>
+<TD>H1-A</TD>
+<TD>164</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>22 </DIV></TD>
+<TD>동대문캠퍼스</TD>
+<TD>중2CPI1</TD>
+<TD>노승욱A</TD>
+<TD>H1-A</TD>
+<TD>144</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>23 </DIV></TD>
+<TD>중랑캠퍼스</TD>
+<TD>중3EI2</TD>
+<TD>안재우A</TD>
+<TD>M3-A</TD>
+<TD>141</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>24 </DIV></TD>
+<TD>성동캠퍼스</TD>
+<TD>중1SA2</TD>
+<TD>김지민BF</TD>
+<TD>M3-A</TD>
+<TD>138</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>25 </DIV></TD>
+<TD>서초캠퍼스</TD>
+<TD>중NI2</TD>
+<TD>김민서CJ</TD>
+<TD>M2-C</TD>
+<TD>137</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>26 </DIV></TD>
+<TD>동대문캠퍼스</TD>
+<TD>중1NI1</TD>
+<TD>류강래A</TD>
+<TD>M3-A</TD>
+<TD>133</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>27 </DIV></TD>
+<TD>동대문캠퍼스</TD>
+<TD>중1SI2</TD>
+<TD>홍채영B</TD>
+<TD>M2-A</TD>
+<TD>128</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>28 </DIV></TD>
+<TD>동대문캠퍼스</TD>
+<TD>중1SI1</TD>
+<TD>이의진C</TD>
+<TD>M1-A</TD>
+<TD>126</TD></TR>
+<TR class=layer_pop_rank_table_under3>
+<TD>
+<DIV>28 </DIV></TD>
+<TD>성동캠퍼스</TD>
+<TD>중1SA2</TD>
+<TD>유정훈A</TD>
+<TD>M3-A</TD>
+<TD>126</TD></TR></TBODY></TABLE></DIV>
+<DIV id=layer_pop_rank_info><SPAN style="FONT-SIZE: 12px; FONT-WEIGHT: bold">※</SPAN> <SPAN style="COLOR: #666666; FONT-SIZE: 11px"><B>랭킹점수 합산 기준</B><BR>&nbsp; &nbsp; &nbsp;해당월 1일부터 전일까지 커트라인을 통과한 유닛별 최고점수의 합산 </SPAN></DIV></DIV></FORM></BODY>
